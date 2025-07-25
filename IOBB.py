@@ -34,7 +34,7 @@ BG = st.number_input("Blood glucose (mmol/L):", min_value=0.01, max_value=50.00,
 HMR = st.number_input("HT/MS (hematoma thickness/midline shift) ratio:", min_value=0.01, max_value=10.00, value=1.00)
 
 # 处理输入并进行预测
-feature_values = [PD, AGE, BG, HMR]
+feature_values = [AGE, PD, BG, HMR]
 features = np.array([feature_values])
 
 if st.button("Predict"):
