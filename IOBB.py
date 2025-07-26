@@ -10,9 +10,9 @@ model = joblib.load('脑膨出_XGBoost_model.pkl')
 
 # 定义特征的选项
 Pupillary_dilation_options = {
-    0: 'No (0)',
-    1: 'Unilateral (1)',
-    2: 'Bilateral (2)'
+    0: 'No',
+    1: 'Unilateral',
+    2: 'Bilateral'
 }
 
 # Define feature names
